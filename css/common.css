@@ -1,0 +1,179 @@
+body {
+    min-width: 1230px;
+}
+
+.w {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+/* 头部设置 */
+header {
+    height: 47px;
+    background-color: #222222;
+}
+
+header .head-l {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 47px;
+    width: 350px;
+    color: white;
+}
+
+header .head-l #dLabel {
+    background-color: transparent;
+    border: none;
+}
+
+
+header .head-r {
+    float: right;
+    display: flex;
+    width: 270px;
+    height: 47px;
+    align-items: center;
+    color: white;
+}
+
+.head-r .help,
+.head-r .more,
+.head-r .account {
+    flex: 1;
+}
+
+/* 尾部设置 */
+footer {
+    height: 478px;
+    background-color: #101010;
+}
+
+footer .link {
+    margin-top: 65px;
+    height: 320px;
+    display: flex;
+}
+
+.link .about-us,
+.link .information,
+.link .my-account,
+.link .quick-link {
+    flex: 1;
+}
+
+footer .link dt {
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    color: white;
+}
+
+footer .link dd {
+    font-size: 14px;
+    height: 30px;
+    color: #627272;
+}
+
+footer .link dd a {
+    font-size: 14px;
+    color: #627272;
+}
+
+footer .link dd a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer .contact a {
+    font-size: 40px;
+}
+
+.contact .facebook {
+    color: #345A95;
+}
+
+.contact .youtube {
+    color: #CB1303;
+}
+
+.contact .twitter {
+    color: #00A1E5;
+}
+
+.contact .instram {
+    font-size: 44px;
+    color: #0077B6;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    height: 57px;
+    background-color: #161616;
+    color: #777777;
+}
+
+footer .card img {
+    margin-left: 20px;
+}
+
+footer .thisby span,
+footer .reserved span {
+    color: white;
+}
+
+/* 广告栏 */
+.ad {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 247px;
+}
+
+.adhead {
+    display: flex;
+    height: 46px;
+    padding: 10px;
+    background-color: #ce1648;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adhead span {
+    font-weight: 700;
+}
+
+.adhead a {
+    height: 34px;
+    width: 34px;
+    color: white;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.adbody img {
+    width: 247px;
+}
+
+/* 返回顶部 */
+.goTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 30px !important;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}

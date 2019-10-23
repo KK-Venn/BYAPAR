@@ -1,0 +1,93 @@
+﻿/* 通配清除内外边距和轮廓 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* 清除a的默认下划线 */
+a {
+	text-decoration: none;
+}
+/* 清除li的默认样式 */
+li {
+	list-style: none;
+}
+/* 清除input控件的边框和轮廓线 */
+input {
+	border: 0;
+	outline: none;
+}
+/* 清除文字倾斜 */
+i,em {
+	font-style: normal;
+}
+/* 清除文字粗体 */
+b {
+	font-weight: 400;
+}
+/* 清除图片底部空隙 */
+img {
+	border: none;
+	vertical-align: middle;
+}
+/* 左浮动 */
+.fl {
+	float: left;
+}
+/* 右浮动 */
+.fr {
+	float: right;
+}
+/* 版心居中 */
+.w {
+	margin: 0 auto;
+}
+/* 清除浮动和垂直外边距合并 */
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* 单行文本溢出时省略显示 */
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 不同内容分色显示 */
+/* * {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+* * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+* * * * {
+    background-color: rgba(255, 0, 255, .2);
+}
+
+* * * * * {
+    background-color: rgba(0, 255, 255, .2);
+}
+
+* * * * * * {
+    background-color: rgba(255, 255, 0, .2);
+}
+
+* * * * * * * {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+* * * * * * * * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * * * * * * * {
+    background-color: rgba(0, 0, 255, .2);
+} */
